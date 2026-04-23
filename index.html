@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>프로젝트 &middot; 인공지능 학생</title>
+    <style>
+      :root {
+        --bg: #0f1724;
+        --card: #0b1220;
+        --accent: #60a5fa;
+        --muted: #94a3b8;
+        --text: #e6eef8;
+      }
+      body {
+        margin: 0;
+        font-family:
+          Inter,
+          Segoe UI,
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        background: linear-gradient(180deg, #091127 0%, #071023 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 860px;
+        margin: 48px auto;
+        padding: 24px;
+      }
+      .card {
+        background: var(--card);
+        padding: 28px;
+        border-radius: 12px;
+        box-shadow: 0 6px 24px rgba(2, 6, 23, 0.6);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 28px;
+      }
+      p.lead {
+        color: var(--muted);
+        margin: 0 0 18px;
+      }
+      ul {
+        margin: 8px 0 18px 20px;
+      }
+      li {
+        margin: 6px 0;
+      }
+      .meta {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 14px;
+      }
+      .badge {
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--muted);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 13px;
+      }
+      a.button {
+        display: inline-block;
+        background: var(--accent);
+        color: #06203b;
+        padding: 10px 14px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      footer {
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 18px;
+      }
+      @media (max-width: 520px) {
+        .container {
+          margin: 20px;
+          padding: 16px;
+        }
+        .card {
+          padding: 18px;
+        }
+        h1 {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>안녕하세요 — 인공지능에 관심 있는 학생입니다</h1>
+        <p class="lead">
+          대덕소프트웨어 마이스터고등학교에 재학 중이며, AI·머신러닝·딥러닝을
+          공부하고 프로젝트를 진행합니다.
+        </p>
+
+        <section>
+          <h2>관심 분야</h2>
+          <ul>
+            <li>머신러닝 / 딥러닝</li>
+            <li>컴퓨터 비전 (이미지 분류, 객체 인식)</li>
+            <li>자연어 처리 (NLP)</li>
+            <li>강화학습 및 시뮬레이션</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>진행 중인 프로젝트</h2>
+          <ul>
+            <li>Unity + Python을 이용한 실습 프로젝트</li>
+            <li>간단한 딥러닝 모델 구현 (TensorFlow / PyTorch 연습)</li>
+          </ul>
+          <p class="meta">
+            <span class="badge">Python</span><span class="badge">Unity</span
+            ><span class="badge">TensorFlow</span
+            ><span class="badge">PyTorch</span>
+          </p>
+        </section>
+
+        <section>
+          <h2>기술 스택</h2>
+          <ul>
+            <li>프로그래밍: Python, C#(Unity)</li>
+            <li>라이브러리: NumPy, pandas, TensorFlow, PyTorch, OpenCV</li>
+            <li>도구: Git, GitHub, VS Code, Unity</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>실행 예시</h2>
+          <p class="muted">
+            프로젝트 루트에 <code>requirements.txt</code>가 있으면 의존성을
+            설치하세요.
+          </p>
+          <pre
+            style="
+              background: rgba(255, 255, 255, 0.03);
+              padding: 10px;
+              border-radius: 8px;
+              color: var(--text);
+              overflow: auto;
+            "
+          >
+pip install -r requirements.txt</pre
+          >
+        </section>
+
+        <section>
+          <h2>기여 및 연락</h2>
+          <p>PR이나 이슈는 언제든 환영합니다. 함께 배우고 개선하고 싶습니다.</p>
+          <p>
+            이메일:
+            <a
+              href="mailto:leadershyun@gmail.com"
+              style="color: var(--accent); text-decoration: none"
+              >leadershyun@gmail.com</a
+            >
+          </p>
+          <p><a class="button" href="README%20(1).md">원본 README 보기</a></p>
+        </section>
+
+        <footer>
+          권장 학습 리소스: Fast.ai, Coursera, TensorFlow/PyTorch 공식 문서
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
